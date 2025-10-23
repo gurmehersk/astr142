@@ -31,7 +31,7 @@ prim_hdu.header['DATE'] = datetime.now().strftime('%Y-%m-%d')
 
 x_g = np.linspace(0, width-1, width)
 y_g = np.linspace(0, height-1, height)
-X, Y = np.meshgrid(x_gauss, y_gauss)
+X, Y = np.meshgrid(x_g, y_g)
 x0, y0 = width/2, height/2
 sig = 50
 
